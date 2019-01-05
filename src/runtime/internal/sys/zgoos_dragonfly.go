@@ -10,6 +10,7 @@ const GoosAndroid = 0
 const GoosDarwin = 0
 const GoosDragonfly = 1
 const GoosFreebsd = 0
+const GoosHaiku = 0
 const GoosJs = 0
 const GoosLinux = 0
 const GoosNacl = 0

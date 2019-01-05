@@ -65,6 +65,9 @@ func main() {
 	case "freebsd":
 		// Since FreeBSD 10 gcc is no longer part of the base system.
 		defaultclang = true
+	case "haiku":
+		// At present, only support 64-bit
+		gohostarch = "amd64"
 	case "solaris":
 		// Even on 64-bit platform, solaris uname -m prints i86pc.
 		out := run("", CheckExit, "isainfo", "-n")
